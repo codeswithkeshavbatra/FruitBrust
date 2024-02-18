@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juicy world</title>
+  <link rel="stylesheet" href="FruitBrust.css">
+</head>
+
+<body>
+
+  <div id="overlay">
+    <div id="popup">
+      <h1 class="" style="color: greenyellow;  margin: 2px 4%;
+        padding: 13px 1px;">Welcome To juicy world</h1>
+
+      <div class="player" style="color: greenyellow;  margin: 0px 80px; ">
+        <label for="playerName" ">Enter Your Name</label>
+        <input type=" text" name="" style="color: greenyellow; background: rgba(194, 236, 132, 0.4);" id="playerName"
+          maxlength="10">
+      </div>
+
+      <span class="close" onclick="document.getElementById('overlay').style.display='none'">
+        <div id="btn">
+          play
+        </div>
+
+      </span>
+
+    </div>
+
+  </div>
+  <div id="targetAchieved">
+    <div id="popupt">
+      <h1 class="" style="color: greenyellow;  margin-left: 134px;
+        padding: 13px 1px;">You Win!!</h1>
+      <span class="closet" onclick="document.getElementById('targetAchieved').style.display='none'">
+        <div id="btnt">
+          close
+        </div>
+
+      </span>
+
+    </div>
+
+  </div>
+  <div id="gameOver">
+    <div id="gameOverPop">
+      <h1 class="" style="color: greenyellow;  margin-left: 134px;
+        padding: 13px 1px; position: relative; top: -30px;">Game Over</h1>
+      <p class="" style="color: greenyellow;  margin-left: 134px;
+        padding: 13px 1px; font-size: 20px;
+    position: relative;
+    top: -60px;"></p>
+      <span class="gameOverclose" style="position: relative;
+      top: -70px;" onclick="document.getElementById('gameOver').style.display='none'">
+        <div id="gameOverbtn">
+          close
+        </div>
+
+      </span>
+
+    </div>
+
+  </div>
+
+  <div id="targetAchieved">
+    <div id="popupt">
+      <h1 class="" style="color: greenyellow;  margin: 2px 4%;
+        padding: 13px 1px;"></h1>
+
+      <span class="closet" onclick="document.getElementById('targetAchieved').style.display='none'">
+        <div id="btnt">
+          play
+        </div>
+
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <div class="score-board">
+    <h2>Score : </h2>
+    <h1 id="score"> </h1>
+  </div>
+  <div class="container">
+    <div style="position: relative; top: 107px;">
+      <h2 style="color: greenyellow;  position: relative; left: 65px;">Inter District Computer Science Exhibitition</h2>
+      <BR></BR>
+      <h3 style="    position: relative;
+      font-size: 10px;
+      color: greenyellow;
+      width: 282px;
+      left: 80px;
+  ">
+        <div style="font-size: 13px;">Developed by :</div> <div style=" font-size: 11px;   position: relative;
+    left: 74px;
+    top: -9px;
+"><br>Parveen Rajput <br>Roll No : 1210721011007 <br> Keshav batra <br>Roll No : 1210721011016</div>
+      </h3>
+    </div>
+
+    <div class="grid" style="margin-right: 180px;">
+
+    </div>
+
+    <div style=" color: greenyellow; display: flex;     margin-left: 23px; position: relative ; top: 70px; right: 45px;
+         margin-top: 16px;">
+      <div id="countdown" style="    top: -1%;
+      left: 36%;"></div>
+      <div id="target" style="    position: relative;
+      top: 30px;
+      left: 20px;">
+
+      </div>
+
+
+      <p style="width: 148px;     position: relative;
+      right: 78px;
+      width: 130px;
+      top: 48px;">player Name :</p>
+      <span id="displayname" style="    position: relative;
+      top: 51px;
+      left: -87px;">
+
+      </span>
+    </div>
+
+
+    <audio id="audio">
+      <source src="audio_audio.mp3" type="audio/mpeg">
+    </audio>
+    <script src="FruitBrust.js"></script>
+
+</body>
+
+</html>

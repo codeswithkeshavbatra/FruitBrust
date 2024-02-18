@@ -1,0 +1,244 @@
+.score-board {
+    padding: 14px 10px;
+    display: flex;
+    height: 10vh;
+    width: 11%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: -37px;
+    font-size: 0.7em;
+    color: greenyellow;
+     border-radius: 30px;
+  }
+
+  .container {
+    display: flex;
+    height: 100vh;
+
+    justify-content: center;
+    align-content: center;
+  }
+
+  body {
+    background: url('https://ashevillebraintraining.com/wp-content/uploads/2021/08/Safe-and-Sound-Protocol_mobile.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-position: center center;
+    position: relative;
+    left: 180px;
+
+  }
+
+  .grid div {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .grid div {
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  #score {
+    text-align: center;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    font-size: 16px;
+
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0px 0px;
+  }
+
+  [tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+  }
+ a {
+    text-decoration: none;
+  }
+
+  #overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left:0;
+    right: 0;
+    z-index: 99999;
+    display: none;
+  }
+
+  #popup {
+
+    background: #fff;
+    padding: 20px;
+    max-width: 520px;
+    height: 20%;
+    margin: 16% auto;
+    position: relative;
+    color: #000000;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+  }
+
+  #popupt {
+
+    background: #fff;
+    padding: 20px;
+    max-width: 520px;
+    height: 20%;
+    margin: 16% auto;
+    position: relative;
+    color: #000000;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+  }
+
+  #btn {
+    width: 52px;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 40%;
+    cursor: pointer;
+    z-index: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+    background-color: #1a1717;
+    border: 2px solid greenyellow;
+    border-radius: 30%;
+    padding: 3px 10px;
+
+  }
+
+  input[type="text"],
+  textarea {
+    border: none;
+    color: greenyellow;
+   }
+
+  #displayname {
+    margin-top: 15px;
+    margin-left: 12px;
+
+  }
+
+  #countdown {
+    width: 150px;
+    position: relative;
+    top: -4%;
+    left: 44%;
+  }
+
+  #target {
+    width: 100px;
+    position: relative;
+    left: 90px;
+  }
+
+
+  #targetAchieved {
+    position: fixed;
+    display: none;
+    z-index: 999999;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left:0;
+    right: 0;
+    z-index: 99999;
+    display: none;
+  }
+
+  #popupt {
+
+    background: #fff;
+    padding: 20px;
+    max-width: 520px;
+    height: 20%;
+    margin: 16% auto;
+    position: relative;
+    color: #000000;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+  }
+    #btnt {
+    width: 59px;
+    font-size: 24px;
+    position: relative;
+    top: 0px;
+    left: 40%;
+    cursor: pointer;
+    z-index: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+    background-color: #1a1717;
+    border: 2px solid greenyellow;
+    border-radius: 30%;
+    padding: 3px 10px;
+
+  }
+
+  #gameOver {
+    position: fixed;
+    display: none;
+    z-index: 999999;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left:0;
+    right: 0;
+    z-index: 99999;
+    display: none;
+  }
+
+  #gameOverPop {
+
+    background: #fff;
+    padding: 20px;
+    max-width: 520px;
+    height: 20%;
+    margin: 16% auto;
+    position: relative;
+    color: #000000;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+  }
+    #gameOverbtn {
+    width: 59px;
+    font-size: 24px;
+    position: relative;
+    top: 0px;
+    left: 40%;
+    cursor: pointer;
+    z-index: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+    background-color: #1a1717;
+    border: 2px solid greenyellow;
+    border-radius: 30%;
+    padding: 3px 10px;
+
+  }
